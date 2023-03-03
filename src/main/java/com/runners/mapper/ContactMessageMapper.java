@@ -10,6 +10,8 @@ import java.util.List;
 
 @Mapper(componentModel = "spring")
 public interface ContactMessageMapper {
+
+
     //POJO to DTO
     ContactMessageDTO contactMessageToDTO(ContactMessage contactMessage);
 

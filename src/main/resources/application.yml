@@ -19,6 +19,10 @@ spring:
     properties:
       '[hibernate.format_sql]': true
 
+eLibrary:
+  app:
+    jwtSecret: library@!79
+    jwtExpirationMs: 86400000
 
 logging:
   file:
